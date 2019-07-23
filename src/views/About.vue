@@ -1,5 +1,8 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section class="container">
+    <h1>About us</h1>
+  </section>
 </template>
+
+<style scoped>
+</style>
