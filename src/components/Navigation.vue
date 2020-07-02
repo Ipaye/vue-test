@@ -59,6 +59,7 @@ export default {
   padding: 0 80px;
   justify-content: space-between;
 }
+
 .navigation__brand a {
   color: black;
   text-transform: uppercase;
@@ -81,5 +82,20 @@ export default {
 .navigation__links li a {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation__links {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navigation {
+    padding: 0 10px;
+  }
+  .navigation__links {
+    width: 50%;
+  }
 }
 </style>
